@@ -1,0 +1,17 @@
+{
+  "name": "frame-translator",
+  "version": "1.0.0",
+  "description": "A Flask application that uses Frame SDK to translate speech using Frame glasses.",
+  "scripts": {
+    "venv": "python -m venv venv",
+    "venv:activate": "venv/Scripts/activate",
+    "venv:activate:mac": "source venv/bin/activate",
+    "install:py": "pip install -r requirements.txt",
+    "start": "python app.py",
+    "clean": "rm -f temp_audio.wav",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["frame", "translation", "flask", "speech-to-text", "google-translate"],
+  "author": "",
+  "license": "MIT"
+}
